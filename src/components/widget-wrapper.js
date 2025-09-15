@@ -56,9 +56,6 @@ export class WidgetWrapper extends LitElement {
 		}
 
 		.widget-content {
-			display: flex;
-			justify-content: center;
-			width: fit-content;
 			padding: 1.5rem;
 			min-height: 120px;
 		}
