@@ -69,31 +69,31 @@ export class WidgetWrapper extends LitElement {
 
 		@media (max-width: 768px) {
 			:host {
-				width: 100% !important;
-				max-width: 100% !important;
-				box-sizing: border-box !important;
-				display: block !important;
+				width: 100%;
+				max-width: 100%;
+				box-sizing: border-box;
+				display: block;
 			}
 
 			.widget-container {
 				margin-bottom: 1rem;
-				width: 100% !important;
-				max-width: 100% !important;
-				box-sizing: border-box !important;
-				min-width: unset !important;
+				width: 100%;
+				max-width: 100%;
+				box-sizing: border-box;
+				min-width: unset;
 			}
 
 			.widget-header {
 				padding: 0.75rem 1rem;
-				width: 100% !important;
-				box-sizing: border-box !important;
+				width: 100%;
+				box-sizing: border-box;
 			}
 
 			.widget-content {
 				padding: 1rem;
 				min-height: 100px;
-				width: 100% !important;
-				box-sizing: border-box !important;
+				width: 100%;
+				box-sizing: border-box;
 				overflow-x: hidden;
 			}
 		}
