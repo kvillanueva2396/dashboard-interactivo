@@ -128,10 +128,10 @@ export class WidgetsPage extends LitElement {
 		@media (max-width: 768px) {
 			:host {
 				padding: 0.5rem;
-				width: 100% !important;
-				max-width: 100% !important;
+				width: 100%;
+				max-width: 100%;
 				box-sizing: border-box;
-				display: block !important;
+				display: block;
 			}
 
 			.dashboard-header {
@@ -146,11 +146,11 @@ export class WidgetsPage extends LitElement {
 			}
 
 			.widgets-grid {
-				display: grid !important;
-				grid-template-columns: 1fr !important;
+				display: grid;
+				grid-template-columns: 1fr;
 				gap: 1rem;
-				width: 100% !important;
-				max-width: 100% !important;
+				width: 100%;
+				max-width: 100%;
 				overflow-x: hidden;
 				padding: 0;
 				margin: 1rem 0;
@@ -162,7 +162,6 @@ export class WidgetsPage extends LitElement {
 			}
 		}
 
-		/* Regla adicional para tabletas */
 		@media (min-width: 769px) and (max-width: 1024px) {
 			.widgets-grid {
 				grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -174,7 +173,6 @@ export class WidgetsPage extends LitElement {
 	handleTodoEvent(event) {
 		console.log('Evento de todo:', event.type, event.detail)
 
-		// Emitir evento al dashboard principal
 		this.dispatchEvent(
 			new CustomEvent('todo-event', {
 				detail: {
