@@ -164,12 +164,6 @@ export class DashboardApp extends LitElement {
 				box-sizing: border-box;
 			}
 
-			.main-content.sidebar-collapsed {
-				margin-left: 250px;
-				width: calc(100vw - 250px);
-				max-width: calc(100vw - 250px);
-			}
-
 			.content-panel {
 				padding: 1rem;
 				width: 100%;

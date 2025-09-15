@@ -83,10 +83,6 @@ export class Sidebar extends LitElement {
 			:host {
 				--sidebar-width: 70px;
 			}
-
-			:host([collapsed]) {
-				--sidebar-width: 250px;
-			}
 		}
 	`
 
